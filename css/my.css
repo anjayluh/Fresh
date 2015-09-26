@@ -1,0 +1,77 @@
+/* Widen and center h1 text between "Back" and "Home" buttons */
+.ui-title {
+
+	width:50%;
+	margin-left:26% !important;
+}
+/* Align Home button left */
+.ui-header .ui-btn-right {
+	left:100px;
+	right:inherit;
+}
+/* Capitalize header h1 */
+.ui-header h1 {
+	text-transform:capitalize;	
+}
+/* Full Site/About icon spacing */
+.ui-btn-inner {
+	padding-left:40px;	
+}
+/* Nested list width fix http://bit.ly/fJGPsg */
+.ui-li .ui-btn-inner a.ui-link-inherit {
+	padding-top:0.7em;
+	padding-right:30px;
+	padding-bottom:0.7em;
+}
+/* Remove background seal */
+.ui-content {
+	background:none;
+}
+/* Make time aside smaller to allow for longer titles */
+.ui-li-aside {
+	width:20% !important;
+}
+/* add space after list dividers */
+ul.copy-divider {
+	margin:20px -15px 0 -15px !important;
+}
+/* Home page banner */
+h2#banner {
+	font-size:50px;
+	width:1000px;
+	
+	
+}
+/* Home page banner landscape */
+.landscape h2#banner {
+	background:transparent url(../images/banner3111.png) no-repeat left 100px;
+	width:1000px;
+	height:900px;
+	margin:-10px auto -175px auto;
+	text-indent:-9999px;
+}
+/* Remove reduntant extra top padding - don't put h2's in front of ul.listview */
+h2 {
+	margin:0;
+	font-size:20px;
+}
+.ui-li-icon {
+	top:0.4em !important;
+}
+/* Make room for icons */
+.ui-li-has-icon .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li-has-icon {
+	padding-left:47px;
+}
+/* Add space after intro paragraphs */
+p.intro {
+	margin-bottom:30px !important;
+}
+/* Search box top margin */
+.ui-listview-filter {
+	margin-top:20px;
+}
+/* Remove bold from grid */
+.ui-grid-b {
+	font-weight:normal;	
+	
+}
